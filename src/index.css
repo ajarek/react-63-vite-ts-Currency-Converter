@@ -25,8 +25,46 @@ body{
   background:linear-gradient(to top, rgb(219, 234, 254), rgb(147, 197, 253), rgb(59, 130, 246));
   border:3px solid silver ;
   color: #fff;
+  padding: 16px;
 }
 .header{
   text-align: center;
   
+}
+.converter{
+ 
+  height: 50%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+ 
+}
+.wrapper-converter{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+input, select{
+  height: 50px;
+  
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: rgb(67, 54, 207);
+  color: #fff;
+}
+input{
+  padding: 0 16px;
+  border-bottom-left-radius:15px ;
+  border-top-left-radius:15px ;
+  width: 70%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select{
+  width: 30%;
+  border-bottom-right-radius:15px ;
+  border-top-right-radius:15px ;
 }
