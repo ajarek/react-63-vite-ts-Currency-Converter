@@ -1,6 +1,6 @@
 # react-63-vite-ts-Currency-Converter
 
-#### Technologies used: react
+#### Technologies used: react, typescript.
 #### Hooks used: useState,  useEffect ,
 #### Exchange rates are taken from data.json
 ## Setup:
